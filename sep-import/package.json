@@ -1,0 +1,17 @@
+{
+  "name": "apim-acme-retail-sep-import",
+  "version": "0.1.0",
+  "description": "Import tools",
+  "author": "Solace Corporation",
+  "contributors": [
+    {
+      "name": "Ricardo Gomez-Ulmke",
+      "email": "ricardo.gomez-ulmke@solace.com"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@solace-iot-team/sep-async-api-importer": "^0.1.9-alpha"
+  }
+}
