@@ -1,0 +1,3 @@
+description: The ID of the store.
+schema:
+  type: string
