@@ -12,6 +12,7 @@
   "license": "MIT",
   "scripts": {},
   "dependencies": {
-    "@solace-iot-team/sep-async-api-importer": "^0.1.9-alpha"
+    "@solace-iot-team/sep-async-api-importer": "^0.1.9-alpha",
+    "pino-pretty": "^8.1.0"
   }
 }
