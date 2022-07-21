@@ -6,7 +6,7 @@
 name: release
 on:
   # for testing
-  workflow_dispatch:
+  # workflow_dispatch:
   # for production
   release:
     types: [created]

@@ -6,7 +6,7 @@
 
 ## Setup
 
-### Prerequisites:
+### Prerequisites
 - **node 16**.
 - **Solace Cloud Token**.
 
@@ -62,5 +62,9 @@ cd sep-import
 cat ./test/logs/run.sh.out
 
 ```
+
+## Details
+
+For more details of how this repo is set up and the workflow(s) behind it, see [Details](./Details.md).
 
 ---
