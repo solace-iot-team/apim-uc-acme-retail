@@ -20,8 +20,8 @@ scriptName=$(basename $(test -L "$0" && readlink "$0" || echo "$0"));
   runScript="npx sep-async-api-importer -fp ../../specs/**/*.spec.yml"
   echo "starting: $runScript ..."
 
-  # $runScript
-  $runScript | npx pino-pretty > $logFile 2>&1
+  $runScript | npx pino-pretty
+  # $runScript | npx pino-pretty > $logFile 2>&1
   code=$?;
   if [[ $code != 0 ]]; then
     echo ">>> ERROR - code=$code - runScript='$runScript' - $scriptName";
