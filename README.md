@@ -20,6 +20,10 @@ npm install
 
 ```bash
 cd ep-import
+
+# help
+npx ep-async-api-importer -h
+
 # adjust .env as required
 vi .env
 ```
@@ -33,12 +37,6 @@ export CLI_SOLACE_CLOUD_TOKEN={token}
 
 ```bash
 cd ep-import
-
-# help
-npx ep-async-api-importer -h
-
-# check the version
-npx ep-async-api-importer -v
 
 # import single spec into custom domain
 npx ep-async-api-importer -fp '../specs/central-it/till-system/AcmeRetail-Central-IT-Provider-TillSystem-v1.spec.yml -d acme-retail/test'
