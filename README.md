@@ -56,7 +56,7 @@ cd ep-import
 ./test/run.sh
 
 # log file:
-cat ./test/logs/run.sh.out
+cat ./test/tmp/logs/run.sh.out
 
 ```
 
