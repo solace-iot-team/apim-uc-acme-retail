@@ -10,9 +10,8 @@
     }
   ],
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
-    "@solace-iot-team/ep-async-api-importer": "^0.5.1-alpha"
+    "@solace-labs/ep-async-api-importer": "^0.5.3-alpha"
   }
 }
