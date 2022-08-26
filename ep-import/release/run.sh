@@ -19,7 +19,7 @@ scriptName=$(basename $(test -L "$0" && readlink "$0" || echo "$0"));
   logFile="$LOG_DIR/$scriptName.out";
   mkdir -p "$(dirname "$logFile")";
 
-  runScript="npx sep-async-api-importer -fp $scriptDir/../../specs/**/*.spec.yml"
+  runScript="npx ep-async-api-importer -fp $scriptDir/../../specs/**/*.spec.yml"
   echo "starting: $runScript ..."
 
   $runScript 2>&1 | npx pino-pretty 2>&1 > $logFile 2>&1
