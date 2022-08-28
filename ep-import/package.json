@@ -12,6 +12,6 @@
   "license": "MIT",
   "scripts": {},
   "dependencies": {
-    "@solace-labs/ep-async-api-importer": "^0.5.3-alpha"
+    "@solace-labs/ep-async-api-importer": "^0.5.4-alpha"
   }
 }
