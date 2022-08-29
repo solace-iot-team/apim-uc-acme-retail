@@ -6,7 +6,7 @@
 name: test
 on:
   # for testing
-  # workflow_dispatch:
+  workflow_dispatch:
   # production
   schedule:
   # #   # - cron: '0 4 * * MON'
@@ -17,12 +17,12 @@ on:
 env:
   # DEBUG_FLAG: ${{ true }}
   DEBUG_FLAG: ${{ false }}
-  IMPORTER_CLI_DIR: "sep-import"
-  IMPORTER_CLI_TEST_LOGS_DIR: "sep-import/test/logs"
-  IMPORTER_CLI_TEST_LOGS_OUTPUT_NAME: "sep-import-test-logs"
+  IMPORTER_CLI_DIR: "ep-import"
+  IMPORTER_CLI_TEST_LOGS_DIR: "ep-import/test/tmp/logs"
+  IMPORTER_CLI_TEST_LOGS_OUTPUT_NAME: "ep-import-test-logs"
 jobs:
   test:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     strategy:
       max-parallel: 1
       matrix:
