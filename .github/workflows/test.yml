@@ -6,7 +6,7 @@
 name: test
 on:
   # for testing
-  workflow_dispatch:
+  # workflow_dispatch:
   # production
   schedule:
   # #   # - cron: '0 4 * * MON'

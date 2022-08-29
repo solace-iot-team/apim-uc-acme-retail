@@ -13,9 +13,9 @@ on:
 env:
   # DEBUG_FLAG: ${{ true }}
   DEBUG_FLAG: ${{ false }}
-  IMPORTER_CLI_DIR: "sep-import"
-  IMPORTER_CLI_TEST_LOGS_DIR: "sep-import/release/logs"
-  IMPORTER_CLI_TEST_LOGS_OUTPUT_NAME: "sep-import-release-logs"
+  IMPORTER_CLI_DIR: "ep-import"
+  IMPORTER_CLI_TEST_LOGS_DIR: "ep-import/release/tmp/logs"
+  IMPORTER_CLI_TEST_LOGS_OUTPUT_NAME: "ep-import-release-logs"
 jobs:
   release:
     runs-on: ubuntu-18.04
