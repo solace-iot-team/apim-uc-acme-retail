@@ -44,6 +44,9 @@ npx ep-async-api-importer -fp '../specs/central-it/till-system/AcmeRetail-Centra
 # import all specs with custom domain
 npx ep-async-api-importer -fp '../specs/**/*.spec.yml' -d acme-retail/test
 
+# import all specs into their respective domains
+npx ep-async-api-importer -fp '../specs/**/*.spec.yml'
+
 ```
 
 ## Run Tests
