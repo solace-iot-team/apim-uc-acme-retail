@@ -6,7 +6,7 @@
 name: release
 on:
   # for testing
-  # workflow_dispatch:
+  workflow_dispatch:
   # for production
   release:
     types: [created]
@@ -18,7 +18,7 @@ env:
   IMPORTER_CLI_TEST_LOGS_OUTPUT_NAME: "ep-import-release-logs"
 jobs:
   release:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     strategy:
       max-parallel: 1
       matrix:
