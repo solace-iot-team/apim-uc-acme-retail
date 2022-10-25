@@ -1,6 +1,6 @@
 {
   "name": "apim-acme-retail-ep-import",
-  "version": "0.3.0",
+  "version": "1.1.0",
   "description": "Import tools",
   "author": "Solace Corporation",
   "contributors": [
@@ -12,6 +12,6 @@
   "license": "MIT",
   "scripts": {},
   "dependencies": {
-    "@solace-labs/ep-async-api-importer": "^0.6.0-alpha"
+    "@solace-labs/ep-async-api-importer": "^0.9.0-alpha"
   }
 }
