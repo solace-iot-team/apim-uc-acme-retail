@@ -35,7 +35,7 @@ jobs:
         uses: andymckay/cancel-action@0.2
 
       - name: Checkout Current Branch
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
 
@@ -49,7 +49,7 @@ jobs:
           env | grep TEST
 
       - name: setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
 
